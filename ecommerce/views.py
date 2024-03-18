@@ -32,7 +32,7 @@ def tokenize(request):
      url = "https://api.aiforthai.in.th/tlexplus"
      data = {'text':sentence}
      headers = {
-        'Apikey': "asFr72Etyizci5PFUmcGTUmeRKxSqXfn"
+        'Apikey': "You token"
         }
      response = requests.post(url, data=data, headers=headers)
      reponse_json = response.json()
